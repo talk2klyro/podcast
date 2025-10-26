@@ -3,24 +3,28 @@
     "name": "Aisha Bello",
     "tribe": "Hausa",
     "photo": "images/aisha.jpg",
-    "voice": "voices/aisha_hausa.mp3"
+    "voice": "voices/aisha_hausa.mp3",
+    "profile": "https://yourdomain.com/tutors/aisha"
   },
   {
     "name": "Chinedu Okafor",
     "tribe": "Igbo",
     "photo": "images/chinedu.jpg",
-    "voice": "voices/chinedu_igbo.mp3"
+    "voice": "voices/chinedu_igbo.mp3",
+    "profile": "https://yourdomain.com/tutors/chinedu"
   },
   {
     "name": "Tunde Adewale",
     "tribe": "Yoruba",
     "photo": "images/tunde.jpg",
-    "voice": "voices/tunde_yoruba.mp3"
+    "voice": "voices/tunde_yoruba.mp3",
+    "profile": "https://yourdomain.com/tutors/tunde"
   },
   {
     "name": "Grace Johnson",
     "tribe": "Tiv",
     "photo": "images/grace.jpg",
-    "voice": "voices/grace_tiv.mp3"
+    "voice": "voices/grace_tiv.mp3",
+    "profile": "https://yourdomain.com/tutors/grace"
   }
 ]
