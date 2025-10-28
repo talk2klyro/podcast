@@ -1,3 +1,5 @@
+// script.js
+
 const container = document.getElementById("topicsContainer");
 
 fetch("data/topics.json")
@@ -29,14 +31,56 @@ fetch("data/topics.json")
       container.appendChild(section);
     });
 
-    // Handle audio playback
+    // === 🎧 Improved audio playback system ===
+    let currentAudio = null;
+    let currentButton = null;
+
     document.querySelectorAll(".voice-btn").forEach(btn => {
       btn.addEventListener("click", () => {
-        new Audio(btn.dataset.voice).play();
+        const voiceSrc = btn.dataset.voice;
+
+        // If the same button is clicked again, toggle play/pause
+        if (currentAudio && currentButton === btn) {
+          if (currentAudio.paused) {
+            currentAudio.play();
+            btn.textContent = "⏸ Pause";
+            currentButton.parentElement.parentElement.classList.add("playing");
+          } else {
+            currentAudio.pause();
+            btn.textContent = "▶️ Resume";
+            currentButton.parentElement.parentElement.classList.remove("playing");
+          }
+          return;
+        }
+
+        // Stop any currently playing audio
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+          if (currentButton) {
+            currentButton.textContent = "🎙 Play";
+            currentButton.parentElement.parentElement.classList.remove("playing");
+          }
+        }
+
+        // Start new audio
+        currentAudio = new Audio(voiceSrc);
+        currentButton = btn;
+        btn.textContent = "⏸ Pause";
+        currentButton.parentElement.parentElement.classList.add("playing");
+        currentAudio.play();
+
+        // When playback ends, reset button
+        currentAudio.addEventListener("ended", () => {
+          btn.textContent = "🎙 Play";
+          btn.parentElement.parentElement.classList.remove("playing");
+          currentAudio = null;
+          currentButton = null;
+        });
       });
     });
 
-    // Handle profile redirection
+    // === 👤 Handle profile redirection ===
     document.querySelectorAll(".profile-btn").forEach(btn => {
       btn.addEventListener("click", () => {
         window.open(btn.dataset.profile, "_blank");
