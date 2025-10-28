@@ -3,18 +3,25 @@
     "topic": "Maternal Health Awareness",
     "voices": [
       {
-        "name": "Aisha Bello",
+        "name": "Aisha Muhammad",
         "tribe": "Hausa",
-        "photo": "images/aisha.jpg",
-        "voice": "https://drive.google.com/file/d/1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT/view?usp=drivesdk",
-        "profile": "https://yourdomain.com/tutors/aisha"
+        "photo": "https://i.postimg.cc/J7DLfYX9/IMG-20251018-WA0045.jpg",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://ceo-talk2health.vercel.app"
       },
       {
-        "name": "Grace Johnson",
-        "tribe": "Tiv",
-        "photo": "images/grace.jpg",
-        "voice": "https://drive.google.com/file/d/1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT/view?usp=drivesdk",
-        "profile": "https://yourdomain.com/tutors/grace"
+        "name": "Fatima Abubakar Mala",
+        "tribe": "Kanuri",
+        "photo": "https://i.postimg.cc/J4D9Fsf5/IMG-20251026-WA0015.jpg",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://mama-fatima.vercel.app"
+      },
+      {
+        "name": "Isah Abubakar Sadiq",
+        "tribe": "Hausa",
+        "photo": "https://i.postimg.cc/8c0BgPrR/IMG-20251026-WA0050.jpg",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://isah-talk2healthme.vercel.app"
       }
     ]
   },
@@ -22,18 +29,25 @@
     "topic": "Entrepreneurship for Youth",
     "voices": [
       {
-        "name": "Tunde Adewale",
-        "tribe": "Yoruba",
-        "photo": "images/tunde.jpg",
-        "voice": "https://drive.google.com/file/d/1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT/view?usp=drivesdk",
-        "profile": "https://yourdomain.com/tutors/tunde"
+        "name": "Aminu Sulaiman",
+        "tribe": "Fulani",
+        "photo": "https://i.postimg.cc/g01DnKcd/Black-and-Green-Modern-Minimalist-Consultancy-Business-Logo-20251017-004347-0000.png",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://sir-ten-psi.vercel.app"
       },
       {
-        "name": "Chinedu Okafor",
-        "tribe": "Igbo",
-        "photo": "images/chinedu.jpg",
-        "voice": "https://drive.google.com/file/d/1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT/view?usp=drivesdk",
-        "profile": "https://yourdomain.com/tutors/chinedu"
+        "name": "Saleh Musa",
+        "tribe": "Hausa",
+        "photo": "https://i.postimg.cc/vB6VkFsD/IMG-20251026-WA0055.jpg",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://boy-chew.vercel.app"
+      },
+      {
+        "name": "Maryam Usman",
+        "tribe": "Hausa",
+        "photo": "https://i.postimg.cc/g01DnKcd/Black-and-Green-Modern-Minimalist-Consultancy-Business-Logo-20251017-004347-0000.png",
+        "voice": "https://drive.google.com/uc?export=download&id=1lcsR6g1McqB3gB7fJvTWBxcbljEGYQWT",
+        "profile": "https://maryam-sahratu-s-sis.vercel.app/"
       }
     ]
   }
